@@ -1,0 +1,21 @@
+.map { height: 430px; width:60%;padding: 10px 10px 10px 10px}
+
+body {
+    background-color: linen;
+}
+.container{
+
+
+}
+.leyenda{
+height: 390px;
+position: relative;
+top:5px;
+left: 62.5%;
+width:20%;
+font-size: 12px;
+background-color: white;
+padding: 10px 10px 30px 20px;
+ overflow-y: auto;
+
+}
