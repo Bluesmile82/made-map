@@ -1,4 +1,4 @@
-IP Address,Name,,Headquarters of my organisation,,Website of my organisation: ,Type of organisation (multiple answers are possible),,,,,,"Is your organisation a migrant/diaspora organisation or led by a migrant or diaspora member? (For this survey, 'diaspora' means either you or at least one of your parents or grandparents are or were migrants)?",What is your organisation's main level of intervention? ,lon,lat
+IP Address,Name,,Headquarters of my organisation,,web,Type of organisation (multiple answers are possible),,,,,,"Is your organisation a migrant/diaspora organisation or led by a migrant or diaspora member? (For this survey, 'diaspora' means either you or at least one of your parents or grandparents are or were migrants)?",What is your organisation's main level of intervention? ,lon,lat
 ?,Open-Ended Response,Country of Residence,City:,Country:,Open-Ended Response,trade union,development organisation,academia,human rights organisation,private sector,Other (please specify),Response,Response,,
 188.155.43.183,MIGRAF,Suisse,Geneve,,,,development organisation,,,,,Yes,Local/National,46.198392,6.142296
 81.203.59.240,ASOCIACION PORTIMUJER,España,Valencia,España,http://www.asociacionportimujer.org/,,development organisation,,human rights organisation,,Mujer Migrante,Yes,Regional,39.469908,-0.376288
@@ -125,7 +125,7 @@ IP Address,Name,,Headquarters of my organisation,,Website of my organisation: ,T
 71.183.126.58,Dominican Sisters- Sparkill,United States,Sparkill,USA,www.sparkill.org,,,,human rights organisation,,religious- social services,No,International,41.029967,-73.928261
 121.96.219.211,Dominican Sisters of St. Catherine of Siena,Philippines,Quezon City,Philippines,http://www.motherfrancisca-opsiena.net/,,,,,private sector,religious congregation,Yes,Local/National,14.676041,121.0437
 50.76.1.81,Leadership Conference of Women Religious,USA,"Silver Spring, Maryland",USA,www.lcwr.org,,,,,,Faith-based,No,Local/National,38.990666,-77.026088
-82107143146,"Maryknoll, ICR- Rome",Italy,,,,,,,,,Religious Organization,No,International,,
+82107143146,"Maryknoll, ICR- Rome",Italy,Rome,,,,,,,,Religious Organization,No,International,41.9027835,12.496365500000024
 201.229.40.71,dominican sisters of Bethany,Netherlands,Thorn,Netherlands,dominicanessenvanbethanie.nl,,,,,,religious congregation,No,International,51.162613,5.842721
 121.73.237.5,Dominican Sisters,New Zealand,,,,,,,,private sector,,No,,,
 75.99.90.10,Srs. of St. Dominic- Amityville,US,Amityville,US,www.amityvilleop.org,,,,,,religious congregation,No,Local/National,40.678989,-73.417067
@@ -175,7 +175,7 @@ IP Address,Name,,Headquarters of my organisation,,Website of my organisation: ,T
 68195135229,World Christian Life Community,USA,Rome,Italy,www.cvx-clc.net,,,,human rights organisation,,Faith Based,Yes,International,41.872389,12.48018
 142.163.218.14,Congregation of the Sisters of the Presentation - NL,Canada,"St. John's, NL",Canada,www.presentationsisters.ca,,,,,private sector,Religious Sisters,No,Local/National,47.560541,-52.712831
 196.217.30.89,Réseau Marocain Transnational Migration & Développement (RMTMD),Morocco,Rabat,Morocco,Page Facebook : https://www.facebook.com/rmtmd.migrationdeveloppement,,development organisation,academia,human rights organisation,,,Yes,International,33.97159,-6.849813
-85.76.114.251,Maailmankauppayhdistys Sikitiko ry,Lappeenranta,,,,,development organisation,,,,,,Local/National,,
+85.76.114.251,Maailmankauppayhdistys Sikitiko ry,Lappeenranta,,,,,development organisation,,,,,,Local/National,61.05494119999999,28.18962590000001
 77.53.124.174,Caritas Sweden,Sweden,Stockholm,Sweden,www.caritas.se,,development organisation,,,,,No,Local/National,59.329323,18.068581
 68.62.17.88,Gray Panthers,USA,"Washington, D.C.",USA,www.graypanthers.org,,,,,,social justice activist organization,No,Local/National,38.907192,-77.036871
 217127148170,ADYNE,Belgium,Brussels,Belgium,www.adyne.eu,,,,,,Platform of youth organisations,Yes,International,50.85034,4.35171

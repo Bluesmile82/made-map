@@ -19,3 +19,13 @@ padding: 10px 10px 30px 10px;
  overflow-y: auto;
 
 }
+
+.info{
+clear: both;
+
+	width: 200px;
+height: 200px;
+right: 400px;
+position: absolute;
+background-color :"blue";
+}

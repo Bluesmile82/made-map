@@ -21,6 +21,7 @@
 .leaflet-container {
 	overflow: hidden;
 	-ms-touch-action: none;
+	position: absolute;
 	}
 .leaflet-tile,
 .leaflet-marker-icon,
@@ -93,7 +94,7 @@
 	top: 0;
 	}
 .leaflet-right {
-	right: 200;
+	right: 0;
 	}
 .leaflet-bottom {
 	bottom: 0;
