@@ -18,33 +18,31 @@ position: absolute;
 
 .leyenda{
 
-	top: 1%;
-	opacity:0.95;
+
+	opacity:1;
 	border-radius:15px;
 	z-index: 10;
 	left: 78%;
 	width:17%;
-	height: 60%;
+	height: 82%;
 	position: relative;
-	top:5px;
+
 	font-size: 12px;
 	background-color: white;
 	padding: 10px 30px 30px 20px;
-	 overflow-y: hidden;
-	 cursor:pointer;
+	overflow-y: auto;
+	cursor:pointer;
 
 }
 
 .info{
+
+	top:90%;
 	position: relative;
-	opacity:0.95;
-	left: 78%;
-	width:20%;
-	z-index: 12;
-	border-radius:15px;
-	position: relative;
+	z-index: 10;
+	width:100%;
+	z-index: 10;
 	opacity: 0;
 	height: 0px;
-
 	background-color :white;
 }

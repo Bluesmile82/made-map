@@ -90,6 +90,7 @@ seleccion.on('click', function() {
 
 
 markers.on('click', function(m) { 
+	d3.selectAll("p").style("background-color", "white");
 
 	var id = m.layer.id;
 		info(id);
@@ -117,18 +118,16 @@ function printMarker(mark,i){
 function info(id){
 
 
-	// console.log("i"+i+"Nweb"+Nweb);
-
 	var muestraInfo = d3.select("#info").text("");
 	var web = markerMap[id].web;
 	var country = markerMap[id].country;
 	var city = markerMap[id].city;
 
-	muestraInfo.append("p").text(markerMap[id].options.title)
-			   .append("p").append("a").attr("href","http://" + web).text(web);
-	muestraInfo.append("p").text(city + " , " + country);
+	muestraInfo.append("p").text(markerMap[id].options.title+" / "+city + " , " + country+ "   ")
+			   .append("a").attr("href","http://" + web).text(web);
 
-	d3.select(".info").style("padding","10px").transition().duration(400).style({opacity:1,height:"100px"});
+
+	d3.select(".info").style("padding","10px").transition().duration(400).style({opacity:0.9, height:"60px"});
 
 
 ;}
