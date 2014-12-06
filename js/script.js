@@ -54,7 +54,7 @@ var seleccion = leyenda.selectAll("p");
 
 
 seleccion.on('mouseover', function() { 
-
+	d3.selectAll("p").style("background-color", "white");
 	d3.select(this).style("background-color", "lightblue");
 
 	d3.select(".info").transition().style("height","150px");
@@ -91,7 +91,12 @@ seleccion.on('click', function() {
 
 markers.on('click', function(m) { 
 
-	info(m.layer.id);
+	var id = m.layer.id;
+		info(id);
+
+	window.location = ("#"+ (id-2));
+	console.log(".c"+id);
+	d3.select(".c"+id).style("background-color", "lightblue");
 
 });
 
@@ -102,7 +107,7 @@ var leyenda = d3.select("#leyenda");
 
 function printMarker(mark,i){
 	
-	leyenda.append("p").attr("id",i).text(mark.options.title);
+	leyenda.append("p").attr("class","c"+ i).attr("id",i).text(mark.options.title);
 
 
 }
@@ -111,7 +116,6 @@ function printMarker(mark,i){
 
 function info(id){
 
-	d3.select(".info").style("padding","20px").transition().style({height:"150px"});
 
 	// console.log("i"+i+"Nweb"+Nweb);
 
@@ -122,8 +126,10 @@ function info(id){
 
 	muestraInfo.append("p").text(markerMap[id].options.title)
 			   .append("p").append("a").attr("href","http://" + web).text(web);
-	muestraInfo.append("p").text(country);
-	muestraInfo.append("p").text(city);
+	muestraInfo.append("p").text(city + " , " + country);
+
+	d3.select(".info").style("padding","10px").transition().duration(400).style({opacity:1,height:"100px"});
+
 
 ;}
 
